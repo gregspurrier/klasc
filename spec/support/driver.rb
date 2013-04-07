@@ -19,7 +19,7 @@ class Driver
   def load_kl_spec_repl
     @kl_out.expect(/\(0-\)/)
     kl_spec_repl_path = File.expand_path('../kl-spec-repl.shen', __FILE__)
-    File.readlines(kl_spec_repl_path).each { |l| @kl_in.puts l }
+    File.readlines(kl_spec_repl_path).each { |l| @kl_in.puts l; @kl_out.expect /.*\r\n/ }
     @kl_in.puts "(kl-spec-repl)"
     @kl_out.expect(/READY\r\n/)
   end
