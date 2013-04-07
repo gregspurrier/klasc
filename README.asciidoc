@@ -5,8 +5,8 @@ implementations of KLambda, the kernel Lisp upon which the
 http://shenlanguage.org[Shen] programming language is implemented.
 
 The specification for KLambda is contained in the
-http://www.shenlanguage.org/Documentation/shendoc.htm[Official Shen
-Standard]. Clarifications to the specification may be found on the
+http://www.shenlanguage.org/Documentation/shendoc.htm[Official Shen Standard].
+Clarifications to the specification may be found on the
 http://shen-wiki.tiodante.com/KLambda[KLambda page] of the
 http://shen-wiki.tiodante.com[Shen Wiki].
 
