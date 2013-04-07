@@ -22,7 +22,7 @@ Running
 -------
 The current version of KLaSC expects to interact with a Shen REPL. By
 default, it assumes that the command to launch a Shen REPL is
-+shen+. This can be overridden with the +SHEN_COMMAND+ environment
+`shen`. This can be overridden with the `SHEN_COMMAND` environment
 variable.
 
 KLaSC is implemented with RSpec and does not yet have a wrapper
@@ -30,7 +30,7 @@ script. To run it, simply run RSpec:
 
     bundle exec rspec
 
-Use the +-fs+ argument to RSpec to produce documentation-style output
+Use the `-fs` argument to RSpec to produce documentation-style output
 instead of progress dots.
 
 Disclaimer
