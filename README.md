@@ -2,13 +2,13 @@ KLaSC: KLambda Spec Checker
 ===========================
 KLaSC (pronounced "classy") is a compliance test suite for
 implementations of KLambda, the kernel Lisp upon which the
-(Shen)[http://shenlanguage.org] programming language is implemented.
+[Shen](http://shenlanguage.org) programming language is implemented.
 
 The specification for KLambda is contained in the
-(Official Shen Standard)[http://www.shenlanguage.org/Documentation/shendoc.htm].
+[Official Shen Standard](http://www.shenlanguage.org/Documentation/shendoc.htm).
 Clarifications to the specification may be found on the
-(KLambda page)http://shen-wiki.tiodante.com/KLambda] of the
-(Shen Wiki)[http://shen-wiki.tiodante.com].
+[KLambda page](http://shen-wiki.tiodante.com/KLambda) of the
+[Shen Wiki](http://shen-wiki.tiodante.com).
 
 Installing
 ----------
@@ -37,7 +37,7 @@ Disclaimer
 ----------
 The interpretation of the KLambda specification as tested by KLaSC is in
 the process of being vetted via discussions on the
-(Shen Online News Group)[https://groups.google.com/group/qilang].
+[Shen Online News Group](https://groups.google.com/group/qilang).
 
 All of the tests pass on the Shen-CLisp port, but this does not
 necessarily mean that they all reflect required behavior. When in
